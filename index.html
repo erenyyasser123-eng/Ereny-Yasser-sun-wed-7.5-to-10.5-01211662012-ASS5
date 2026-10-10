@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mudabbir - Financial Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+
+    <div class="hero-section">
+      <div class="container">
+        <span class="badge">📌 Assignment 5</span>
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1>
+              Mudabbir - Financial <span class="Dashboard"> Dashboard</span>
+            </h1>
+            <p>
+              Transform your financial life by building 'Mudabbir' - a personal
+              finance management dashboard that helps track expenses and break
+              the paycheck-to-paycheck cycle. Using only HTML and CSS, you'll
+              create a comprehensive dashboard with a sidebar navigation,
+              summary cards, transaction trackers, budget overview, and expense
+              charts. This project focuses on developing a responsive interface
+              using CSS Flexbox and Grid, with careful attention to visual
+              hierarchy, color scheme, and user experience. By the end, you'll
+              have both valuable coding skills and a blueprint for better
+              financial management.
+            </p>
+            <a href="#" class="btn-start">Start Learning →</a>
+          </div>
+
+          
+          <div class="tech-stack-card">
+            
+            <div class="card-top">
+              <h3><i class="fa-solid fa-code"></i>◉ Technology Stack</h3>
+            </div>
+
+            
+            <div class="tech-buttons">
+              <span class="tech-btn html-btn">
+                <i class="fa-brands fa-html5" style="color: #e44d26"></i>▣ HTML
+              </span>
+              <span class="tech-btn css-btn">
+                <i class="fa-brands fa-css3-alt" style="color: #264de4"></i>▣ CSS
+              </span>
+            </div>
+
+            
+            <div class="project-details-box">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-star" style="color: #f59e0b"></i>
+              </div>
+
+              <div class="project-text">
+                <p class="p-title">💡HTML & CSS Project</p>
+                <p class="p-desc">Complete this project to earn your badge</p>
+              </div>
+            </div>
+
+            
+            <div class="meta-info">
+              <div class="meta-item">
+                <p class="meta-label">Difficulty</p>
+                <p class="meta-value">
+                  <i class="fa-solid fa-bolt" style="color: #60a5fa"></i>
+                  Advanced
+                </p>
+              </div>
+
+              <div class="meta-item">
+                <p class="meta-label">Estimated Time</p>
+                <p class="meta-value">
+                  <i class="fa-regular fa-clock" style="color: #38bdf8"></i> 1
+                  Week
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-tabs-container">
+      
+      <input type="radio" id="tab-overview" name="nav-tabs" />
+      <input type="radio" id="tab-objectives" name="nav-tabs" />
+      <input type="radio" id="tab-resources" name="nav-tabs" />
+      <input type="radio" id="tab-hints" name="nav-tabs" checked />
+
+      
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <ul class="nav-links">
+            <li>
+              <label for="tab-overview" class="nav-item">
+                <i class="fa-solid fa-circle-dot"></i> Overview
+              </label>
+            </li>
+
+            <li>
+              <label for="tab-objectives" class="nav-item">
+                <i class="fa-solid fa-file-lines"></i> Objectives
+              </label>
+            </li>
+
+            <li>
+              <label for="tab-resources" class="nav-item">
+                <i class="fa-solid fa-book-open"></i> Resources
+              </label>
+            </li>
+
+            <li>
+              <label for="tab-hints" class="nav-item">
+                <i class="fa-solid fa-lightbulb"></i> Hints & Tips
+              </label>
+            </li>
+            <li>
+              <a href="home.html" class="demo-btn" type="_blank"
+                >💻 Demo ↗ NEW</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      
+      <div class="content-container">
+        
+         <div class="tab-content content-overview">
+        Your Learning Journey Section
+        <div class="learning-journey-box">
+
+
+            <div class="journey-header">
+              <div>
+                <h2>Your Learning Journey</h2>
+                <p>Track your progress</p>
+              </div>
+
+              <div class="journey-badge-circle">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+            </div>
+
+            <div class="journey-footer">
+              <span>Tasks Completed</span>
+              <span class="tasks-count">0 of 0</span>
+            </div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" style="width: 0%;"></div>
+            </div>
+          </div>  
+
+        
+        <div class="assignment-section">
+          <div class="section-main-header">
+            <i class="fa-solid fa-file-lines"></i>
+            <div>
+              <h2>Your Assignment</h2>
+              <p>What you need to build</p>
+            </div>
+          </div> 
+
+           <div class="story-card">
+            <div class="story-title-row">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <h3>A Personal Story - From Financial Chaos to Control</h3>
+            </div>
+            <p class="story-subtitle">
+              Your Journey: From Paycheck to Paycheck to Financial Freedom
+            </p>
+          </div>
+
+          <div class="scenario-box">
+            <p>
+              <strong>Imagine this scenario:</strong> You’re a hardworking
+              employee earning a decent salary every month. But here’s the
+              problem – by the 10th day of each month, your bank account is
+              nearly empty. 🤯
+            </p>
+            <p class="scenario-text">
+              Sound familiar? You get your salary on the 1st, feel rich for a
+              few days, spend on everything you want, and then realize you have
+              nothing left to survive the rest of the month. The cycle repeats
+              every single month.
+            </p>
+          </div>
+
+          <div class="solution-box">
+            <div class="solution-title-row">
+              <i class="fa-solid fa-lightbulb"></i>
+              <h3>The Solution:</h3>
+            </div> 
+            <p>
+              You decide enough is enough! It’s time to take control of your
+              finances. You’re going to build “Mudabbir” – your personal finance
+              management dashboard that will help you track every penny and
+              finally break the paycheck-to-paycheck cycle.
+            </p>
+          </div>
+
+          <h3 class="breakdown-main-title">
+            Here’s a breakdown of the key sections you’ll be building:
+          </h3> 
+
+          
+           <div class="breakdown-item">
+            <span class="step-number">1</span>
+            <div>
+              <h4>Overall Layout & Sidebar Navigation:</h4>
+              <p>
+                A clean, organized interface where you can easily navigate
+                between different financial tools and reports. This sidebar will
+                be your command center for all money management activities.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">2</span>
+            <div>
+              <h4>Header/Top Bar:</h4>
+              <p>
+                Shows your profile, notifications about upcoming bills, and the
+                Mudabbir logo. This keeps you connected and informed about
+                important financial alerts.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">3</span>
+            <div>
+              <h4>Summary Cards:</h4>
+              <p>
+                Three key metrics at a glance – your Current Balance (how much
+                you have right now), monthly Income (what comes in), and
+                Expenses (what goes out). These cards will show percentage
+                changes to help you track your progress.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">4</span>
+            <div>
+              <h4>Recent Activities & Transactions:</h4>
+              <p>
+                A detailed log of where your money went. Every coffee purchase,
+                grocery bill, and online subscription will be tracked here so
+                you can see your spending patterns clearly.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">5</span>
+            <div>
+              <h4>Monthly Bills Tracker:</h4>
+              <p>
+                Never miss a bill payment again! This section shows all your
+                upcoming payments with due dates and amounts, helping you plan
+                ahead and avoid late fees.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">6</span>
+            <div>
+              <h4>Budget Overview:</h4>
+              <p>
+                Set budgets for different categories (food, entertainment,
+                transport) and track how much you have left to spend. Visual
+                progress bars will show you when you’re getting close to your
+                limits.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">7</span>
+            <div>
+              <h4>Income vs. Expenses Chart:</h4>
+              <p>
+                A visual representation of your weekly income versus expenses.
+                This chart will help you identify problem weeks and successful
+                saving periods.
+              </p>
+            </div>
+          </div> 
+
+          <div class="breakdown-item">
+            <span class="step-number">8</span>
+            <div>
+              <h4>Payment Methods:</h4>
+              <p>
+                Manage all your cards and payment accounts in one place. Track
+                which card you used for what purchase and monitor your credit
+                card limits.
+              </p>
+            </div>
+          </div>
+
+          <div class="breakdown-item">
+            <span class="step-number">9</span>
+            <div>
+              <h4>Account Summary:</h4>
+              <p>
+                A comprehensive view of all your accounts – checking, savings,
+                and credit cards. See all your balances and limits in one
+                organized section.
+              </p>
+            </div>
+
+
+
+
+
+
+
+            
+          </div> 
+         
+<div class="bonus-challenge-card">
+  
+  <span class="bonus-badge">BONUS CHALLENGE</span>
+
+  
+  <div class="bonus-header">
+    <div class="bonus-icon-box">
+      <i class="fa-solid fa-credit-card"></i>
+    </div>
+    <div>
+      <h2>BECOME A CSS MASTER:</h2>
+      <p class="bonus-subtitle">Interactive 3D Credit Card Animation</p>
+    </div>
+  </div>
+
+  
+  <div class="bonus-main-desc">
+    <p>
+      Elevate your finance dashboard with a stunning 3D credit card flip animation that will captivate users! When hovering over payment cards, they’ll transform with a smooth 3D rotation to reveal hidden details on the back—just like premium banking apps used by top financial institutions.
+    </p>
+  </div>
+
+  
+  <div class="bonus-sub-grid">
+    <div class="sub-feature-card">
+      <i class="fa-solid fa-bolt"></i>
+      <div>
+        <h4>Showcase Advanced Skills</h4>
+        <p>Master complex CSS transforms, perspective, and backface-visibility properties</p>
+      </div>
+    </div>
+
+    <div class="sub-feature-card">
+      <i class="fa-solid fa-wallet"></i>
+      <div>
+        <h4>Realistic Details</h4>
+        <p>Include authentic credit card features: chip, hologram, and security code</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+          <div class="transform-footer-box">
+            <i class="fa-solid fa-rocket"></i>
+            <h3>Ready to Transform Your Financial Life?</h3>
+            <p>
+              Your mission is to build this life-changing dashboard using only
+              HTML and CSS. Once complete, you'll have both the coding skills
+              AND a blueprint for better financial management!
+            </p>
+            <span class="emoji-note"
+              >💪 Time to take control of your money! 💰</span
+            >
+          </div>
+
+          <div class="action-buttons-wrapper">
+            <p class="future-text">Ready to build your financial future?</p>
+            <button class="download-images-btn">Download Images</button>
+            <a href="https://drive.google.com/drive/u/0/folders/1xqOI4_BbFUwDM0FXzjIa7inrnCOujJoU" target="_blank"></a>
+          </div>
+
+          <div class="example-target-footer">
+            <div>
+              <i class="fa-solid fa-file-lines"></i>
+              <span>Example to Follow</span>
+            </div>
+            <p>See how your website should look when finished</p>
+            <a href="./home.html" class="view-target-btn" target="_blank">View Visual Target</a>
+          </div>
+        </div>
+
+
+
+
+
+       
+
+        
+        <div class="action-footer">
+          <a href="#" class="btn-download">Download Images</a>
+          <a href="./home.html" class="btn-visual-target" target="_blank"
+            >View Visual Target</a
+          >
+        </div>
+      </div>
+
+
+
+
+      
+
+      
+       <div class="tab-content content-objectives">
+          <div class="objectives-header-top">
+            <span class="goals-badge"><i class="fa-solid fa-bullseye"></i> Learning Goals</span>
+            <h2>Assignment Objectives</h2>
+            <p>This assignment will test your ability to build a complex, real-world financial dashboard layout using modern CSS. You will translate a design built with a utility-first framework (Tailwind CSS) into clean, vanilla CSS, focusing on CSS Grid, Flexbox, responsive design, and custom properties.</p>
+          </div>
+
+          <div class="learning-outcomes-box">
+            <div class="outcomes-title-row">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>Learning Outcomes</h3>
+            </div>
+            <p class="outcomes-desc">Build a complete, responsive financial dashboard using only HTML and vanilla CSS, demonstrating mastery of CSS Grid and Flexbox for layout, media queries for responsiveness, and a solid understanding of the box model, custom properties, and semantic HTML.</p>
+
+            <div class="objectives-grid">
+              <div class="obj-card">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                  <h4>Implementing Modern UI Components</h4>
+                  <p>Recreate various UI components such as progress bars, cards with shadows, and styled tables. This will involve applying advanced CSS properties for shadows, borders, and background gradients to match the design.</p>
+                </div>
+              </div>
+
+              <div class="obj-card">
+                <i class="fa-solid fa-layer-group"></i>
+                <div>
+                  <h4>Mastering CSS Grid and Flexbox for Layout</h4>
+                  <p>Implement various layouts, from the main page structure to individual card components, using both CSS Grid and Flexbox. You will use properties like 'display: grid', 'grid-template-columns', 'display: flex', 'flex-direction', 'justify-content', and 'align-items'.</p>
+                </div>
+              </div>
+
+              <div class="obj-card">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div>
+                  <h4>Responsive Design with Media Queries</h4>
+                  <p>Write media queries to create a fully responsive design that adapts to different screen sizes, from mobile to desktop. You will practice adjusting layouts, font sizes, and spacing for different breakpoints to ensure optimal viewing on all devices.</p>
+                </div>
+              </div>
+
+              <div class="obj-card">
+                <i class="fa-solid fa-palette"></i>
+                <div>
+                  <h4>Using CSS Custom Properties for Theming</h4>
+                  <p>Define and utilize CSS custom properties (variables) to manage colors, font sizes, and spacing throughout the dashboard. This will enhance maintainability and allow for easy theming adjustments in the future.</p>
+                </div>
+              </div>
+
+              <div class="obj-card">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <div>
+                  <h4>Styling with Pseudo-classes and Pseudo-elements</h4>
+                  <p>Enhance the user interface with pseudo-classes like ':hover', ':focus', and ':active' for interactive effects, and pseudo-elements like '::before' and '::after' for decorative elements, icons, or subtle visual enhancements.</p>
+                </div>
+              </div>
+
+              <div class="obj-card">
+                <i class="fa-solid fa-star"></i>
+                <div>
+                  <h4>Creating Smooth Transitions and Animations</h4>
+                  <p>Apply 'transition' effects for smooth hover animations and use 'transform' to create subtle visual effects on elements. You will also implement a 3D flip effect for credit cards using CSS transforms.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="assignment-completion-banner">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Assignment Completion</strong>
+                <span>Demonstrate your skills to potential employers</span>
+              </div>
+              <p>Upon completing this assignment, you’ll have a solid foundation that showcases your understanding of web standards and modern development practices.</p>
+            </div>
+          </div>
+        </div>
+
+      
+
+
+
+     
+
+<div class="tab-content content-resources">
+  <h2 class="section-title">Helpful Links</h2>
+  <p class="section-subtitle">Use these websites to learn HTML and finish your work</p>
+
+  <div class="cards-grid">
+    
+    <div class="card card-1">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-file-lines"></i>
+          <div>
+            <span class="card-title">CSS Grid Layout Guide</span>
+            <span class="card-url">css-tricks.com</span>
+          </div>
+        </div>
+        <span class="tag tag-guide">Guide</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">A comprehensive guide to CSS grid, focusing on all the settings both for the grid parent container and the grid child elements.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> css-tricks.com</span>
+        <a href="https://css-tricks.com/complete-guide-css-grid-layout/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-2">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-bolt"></i>
+          <div>
+            <span class="card-title">Interactive CSS Grid...</span>
+            <span class="card-url">grid.layoutit.com</span>
+          </div>
+        </div>
+        <span class="tag tag-tool">Tool</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">An interactive tool to visually create CSS Grid layouts and generate the corresponding CSS code.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> grid.layoutit.com</span>
+        <a href="https://grid.layoutit.com/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-3">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-gamepad"></i>
+          <div>
+            <span class="card-title">CSS Grid Garden</span>
+            <span class="card-url">cssgridgarden.com</span>
+          </div>
+        </div>
+        <span class="tag tag-game">Game</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">A game where you help a garden grow by writing CSS code! Guide the plants to their watering spots by using the grid properties.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> cssgridgarden.com</span>
+        <a href="https://cssgridgarden.com/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-4">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-palette"></i>
+          <div>
+            <span class="card-title">CSS Pattern powered b...</span>
+            <span class="card-url">css-pattern.com</span>
+          </div>
+        </div>
+        <span class="tag tag-collection">Collection</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">Explore 156 CSS-only patterns made with CSS gradients</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> css-pattern.com</span>
+        <a href="https://css-pattern.com/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-5">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-file-lines"></i>
+          <div>
+            <span class="card-title">CSS Nesting | Ishadeed</span>
+            <span class="card-url">ishadeed.com</span>
+          </div>
+        </div>
+        <span class="tag tag-guide">Guide</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">A guide to CSS nesting, explaining how to use nested selectors to write cleaner and more maintainable CSS code.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> ishadeed.com</span>
+        <a href="https://ishadeed.com/article/css-nesting/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-6">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-solid fa-file-lines"></i>
+          <div>
+            <span class="card-title">CSS Variables 101 |...</span>
+            <span class="card-url">ishadeed.com</span>
+          </div>
+        </div>
+        <span class="tag tag-guide">Guide</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">A beginner-friendly guide to CSS variables (custom properties), explaining how to use them for better maintainability and theming.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> ishadeed.com</span>
+        <a href="https://ishadeed.com/article/css-vars-101/" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+
+    
+    <div class="card card-7">
+      <div class="card-header">
+        <div class="card-title-group">
+          <i class="fa-brands fa-youtube"></i>
+          <div>
+            <span class="card-title">Easy Flipcard Tutorial |...</span>
+            <span class="card-url">youtube.com</span>
+          </div>
+        </div>
+        <span class="tag tag-video">Video</span>
+      </div>
+      <div class="card-desc-box">
+        <p class="card-desc">A step-by-step tutorial on creating a simple flip card effect using HTML and CSS.</p>
+      </div>
+      <div class="card-footer-link">
+        <span><i class="fa-solid fa-globe"></i> youtube.com</span>
+        <a href="https://www.youtube.com/watch?v=NCLdf661ILE" target="_blank" class="visit-link">Visit ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+
+
+
+      
+      <div class="tab-content content-hints">
+          <div class="hints-header-section">
+            <h2>Hints & Visual Guides</h2>
+            <p>Visual aids and helpful tips to guide you through the most challenging parts</p>
+          </div>
+      
+
+
+
+
+
+      <div class="hints-card-box">
+            <div class="bulb-icon-container">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+           
+            <h3>Hints Coming Soon!</h3>
+            <p class="hints-desc">
+              We're working on creating helpful video tutorials and visual guides for this assignment. Check back soon for expert tips and step-by-step guidance.
+            </p>
+            <div class="pro-tip-box">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>Pro Tip: Use the resources section and roadmap to guide your work in the meantime!</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+    
+    <footer class="support-footer">
+      <div class="container">
+        <h3>🎓 Need Support?</h3>
+        <p>
+          Contact your instructor or refer to the resources provided above. Take
+          your time to understand each concept.
+        </p>
+        <span class="support-badge"
+          >⭐ Focus on quality code and following best practices for this
+          assignment!</span
+        >
+      </div>
+    </footer>
+
+
+
+
+  </body>
+</html>
